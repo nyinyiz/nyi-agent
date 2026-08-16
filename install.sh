@@ -32,6 +32,7 @@ done
 # Find where the skill landed (project-level first, then user-level).
 SOURCE_DIRS=(
   ".agents/skills/nyi-agent/commands"
+  "$HOME/.agents/skills/nyi-agent/commands"
   "$HOME/.claude/skills/nyi-agent/commands"
   "$HOME/.config/opencode/skills/nyi-agent/commands"
 )
