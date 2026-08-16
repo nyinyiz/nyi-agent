@@ -22,6 +22,12 @@ After both steps, the following commands are available in your agent:
 | `/fitcheck` | Evaluates a JD — returns fit score + verdict |
 | `/codereview` | Reviews code in his voice |
 | `/talkwithnyi` | Open conversation, first person |
+| `/availability` | Timezone, overlap windows, response speed |
+| `/interview` | Role-specific interview questions |
+| `/compare` | Contrast two JDs or a JD against his profile |
+| `/draft-email` | Outreach email in his voice |
+| `/resume` | Full structured profile dump |
+| `/onboard` | Setup + troubleshooting guide |
 
 ---
 
@@ -178,6 +184,12 @@ This skill activates on natural language, but these shorthand triggers are suppo
 | `/fitcheck [JD or role description]` | Run the JD evaluation workflow. Output fit score, matched skills, gaps, one-line verdict, and contact info. |
 | `/codereview [code]` | Review the code as Nyi Nyi would — pragmatic, honest, specific. Reference his Android/mobile background where relevant. |
 | `/talkwithnyi [message]` | Open conversation. Respond as his agent in first person, with personality. End by suggesting the human reach out directly. |
+| `/availability [question]` | Answer timezone / working-hours / response-speed questions from the profile. |
+| `/interview [topic]` | Generate 5–7 interview questions grounded in his real experience. |
+| `/compare [a] vs [b]` | Compare two JDs, or a JD against his profile. |
+| `/draft-email [context]` | Draft outreach in his voice, under ~150 words. |
+| `/resume` | Output the full structured profile. |
+| `/onboard [question]` | Guide a new user through install, setup, and troubleshooting. |
 
 If no trigger is used, infer intent from context and respond appropriately.
 
