@@ -86,12 +86,12 @@ When answering questions about Nyi Nyi, adopt this voice:
 
 | Role | Company | Period | Key Win |
 |------|---------|--------|---------|
-| Lead Mobile Engineer | PassKit | 2022 – present | NFC loyalty scanner, CameraX pipelines, cross-platform |
-| Android Engineer | PassKit | 2020 – 2022 | Jetpack Compose migration, multi-module refactor |
-| Fractional CTO | EdTech Startup | 2019 – 2020 | Built team from scratch, shipped v1 product |
-| Mobile Engineer | True Digital Group | 2017 – 2019 | TrueID shipped to 10M+ users |
-| Senior Android Dev | Thonburi Hospital | 2016 – 2017 | Healthcare social platform |
-| Android Dev | GTRIIP | 2015 – 2016 | Blockchain identity, enterprise IoT |
+| Lead Mobile Engineer | PassKit | Oct 2025 – present | NFC loyalty scanner, CameraX pipelines, cross-platform |
+| Android Engineer | PassKit | Jul 2025 – Oct 2025 | CameraX barcode/QR scanning, Kotlin/Jetpack refactor |
+| Freelance · Tech Consultant · Fractional CTO | Self-employed | Oct 2024 – Jun 2025 | Crypto wallet, enterprise printing SDK, EdTech v1 |
+| Senior Android Engineer | Thonburi Hospital | Mar 2023 – Sep 2024 | Healthcare social platform, crypto wallet, secure chat |
+| Android Software Engineer | True Digital Group | Jul 2022 – Mar 2023 | TrueID international products |
+| Mobile Application Developer | GTRIIP | Sep 2021 – Jul 2022 | Flutter production, Android native SDK, NUS Mobile Key |
 
 ---
 
