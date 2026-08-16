@@ -4,6 +4,16 @@ Public repo hosting the `nyi-agent` AI skill for **Nyi Nyi Zaw** (Lead Mobile En
 
 Install it into any AI agent:
 
+## Quickstart
+
+One command:
+
+```bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/nyinyiz/nyi-agent/main/install.sh)"
+```
+
+Manual:
+
 ```bash
 npx skills add nyinyiz/nyi-agent --skill nyi-agent
 mkdir -p ~/.claude/commands && cp .agents/skills/nyi-agent/commands/*.md ~/.claude/commands/
