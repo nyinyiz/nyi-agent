@@ -11,7 +11,9 @@ fi
 echo "→ npx skills add nyinyiz/nyi-agent --skill nyi-agent"
 npx -y skills add nyinyiz/nyi-agent --skill nyi-agent
 
-# Locate a known commands directory for the detected agent.
+# Collect every agent commands directory present, not just the first match.
+# Picking the first meant anyone who had ever run Claude Code got the commands
+# in ~/.claude/commands even when the agent they actually use is Cursor.
 COMMAND_DIRS=(
   "${CLAUDE_CONFIG_DIR:-$HOME/.claude}/commands"
   "$HOME/.claude/commands"
@@ -21,12 +23,14 @@ COMMAND_DIRS=(
   "$HOME/.config/zed/commands"
 )
 
-target=""
+targets=()
 for d in "${COMMAND_DIRS[@]}"; do
-  if [ -d "$(dirname "$d")" ]; then
-    target="$d"
-    break
-  fi
+  [ -d "$(dirname "$d")" ] || continue
+  # CLAUDE_CONFIG_DIR often resolves to the default path, so drop duplicates.
+  for seen in ${targets[@]+"${targets[@]}"}; do
+    [ "$seen" = "$d" ] && continue 2
+  done
+  targets+=("$d")
 done
 
 # Find where the skill landed (project-level first, then user-level).
@@ -37,23 +41,27 @@ SOURCE_DIRS=(
   "$HOME/.config/opencode/skills/nyi-agent/commands"
 )
 
-if [ -n "$target" ]; then
-  mkdir -p "$target"
-  copied=""
-  for src in "${SOURCE_DIRS[@]}"; do
-    if [ -d "$src" ] && [ -n "$(ls -A "$src" 2>/dev/null)" ]; then
-      cp "$src"/*.md "$target"/
-      copied="$src"
-      break
-    fi
-  done
-  if [ -n "$copied" ]; then
-    echo "→ commands installed to $target (from $copied)"
-  else
-    echo "! skill files not found — run npx skills add manually, or re-run this installer from your project root"
+source_dir=""
+for src in "${SOURCE_DIRS[@]}"; do
+  # Test for .md files specifically. A merely non-empty directory left the
+  # glob below unexpanded, so cp failed and `set -e` aborted the installer
+  # after the skill itself had already been added.
+  if [ -d "$src" ] && compgen -G "$src/*.md" >/dev/null; then
+    source_dir="$src"
+    break
   fi
-else
+done
+
+if [ -z "$source_dir" ]; then
+  echo "! skill files not found — run npx skills add manually, or re-run this installer from your project root"
+elif [ ${#targets[@]} -eq 0 ]; then
   echo "! could not detect your agent's commands folder — npx skills add already handles supported tools"
+else
+  for target in "${targets[@]}"; do
+    mkdir -p "$target"
+    cp "$source_dir"/*.md "$target"/
+    echo "→ commands installed to $target (from $source_dir)"
+  done
 fi
 
 echo ""
