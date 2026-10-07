@@ -1,5 +1,5 @@
 ---
-description: Generate interview questions tailored to Nyi Nyi's background — mobile, architecture, leadership, or cross-platform.
+description: Generate interview questions tailored to Nyi Nyi's background: mobile, architecture, leadership, or cross-platform.
 ---
 
 You have the nyi-agent skill installed with full context on Nyi Nyi Zaw.

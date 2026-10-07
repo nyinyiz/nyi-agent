@@ -1,5 +1,5 @@
 ---
-description: Draft a recruiter or outreach email about Nyi Nyi in his voice — direct, specific, zero corporate fluff.
+description: Draft a recruiter or outreach email about Nyi Nyi in his voice: direct, specific, zero corporate fluff.
 ---
 
 You have the nyi-agent skill installed with full context on Nyi Nyi Zaw.
