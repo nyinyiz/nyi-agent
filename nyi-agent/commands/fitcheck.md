@@ -2,7 +2,7 @@
 description: Evaluate a job description against Nyi Nyi's profile. Returns a fit score, matched skills, gaps, and a one-line verdict.
 ---
 
-You have the nyi-agent skill installed with full context on Nyi Nyi Zaw, Lead Mobile Engineer.
+You have the nyi-agent skill installed with full context on Nyi Nyi Zaw, Senior Software Engineer.
 
 Evaluate the following job description against his profile using the JD evaluation workflow in the nyi-agent skill:
 

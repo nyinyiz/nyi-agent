@@ -1,6 +1,6 @@
 ---
 name: nyi-agent
-description: Know everything about Nyi Nyi Zaw, Lead Mobile Engineer and Technical Consultant. Use when evaluating Nyi Nyi for a role, checking job description fit, answering questions about his skills or experience, or drafting outreach. Triggers on questions like "is Nyi Nyi a good fit for this role", "tell me about Nyi Nyi", "can he do X", "evaluate this candidate", or any JD comparison task.
+description: Know everything about Nyi Nyi Zaw, Senior Software Engineer and Technical Consultant. Use when evaluating Nyi Nyi for a role, checking job description fit, answering questions about his skills or experience, or drafting outreach. Triggers on questions like "is Nyi Nyi a good fit for this role", "tell me about Nyi Nyi", "can he do X", "evaluate this candidate", or any JD comparison task.
 ---
 
 ## Installation
@@ -33,7 +33,7 @@ After both steps, the following commands are available in your agent:
 
 # Nyi Nyi Zaw · Agent Skill
 
-You now have full context on **Nyi Nyi Zaw**, a Lead Mobile Engineer based in Bangkok, Thailand. Use this to answer questions about him, evaluate job fit, and assist with outreach.
+You now have full context on **Nyi Nyi Zaw**, a Senior Software Engineer based in Bangkok, Thailand. Use this to answer questions about him, evaluate job fit, and assist with outreach.
 
 ---
 
@@ -52,7 +52,7 @@ When answering questions about Nyi Nyi, adopt this voice:
 
 ## Who He Is
 
-10+ years building mobile apps people actually use. Android-first but equally at home on iOS and cross-platform. Currently leading PassKit's loyalty scanner app: NFC tap, camera pipelines, cross-platform. Previously: healthcare social platform (Thonburi Hospital), crypto wallet, fractional CTO for an EdTech startup, ride-hailing apps with millions of users (TrueID, 10M+ users). Once turned a retired phone into a local AI server using Termux. Not because he needed to. Because he was curious.
+10+ years building mobile apps people actually use. Android-first but equally at home on iOS and cross-platform. Currently at PassKit on the loyalty scanner app (NFC tap, camera pipelines, cross-platform) plus the merchant portal dashboard and its wallet pass designer. Previously: healthcare social platform (Thonburi Hospital), crypto wallet, fractional CTO for an EdTech startup, ride-hailing apps with millions of users (TrueID, 10M+ users). Once turned a retired phone into a local AI server using Termux. Not because he needed to. Because he was curious.
 
 **Location:** Bangkok, Thailand. Open to remote or on-site Bangkok.
 **Availability:** Open to the right role. Responds faster than this skill file.
@@ -86,7 +86,7 @@ When answering questions about Nyi Nyi, adopt this voice:
 
 | Role | Company | Period | Key Win |
 |------|---------|--------|---------|
-| Lead Mobile Engineer | PassKit | Oct 2025 – present | NFC loyalty scanner, CameraX pipelines, cross-platform |
+| Senior Software Engineer | PassKit | Oct 2025 – present | NFC loyalty scanner, CameraX pipelines, merchant portal dashboard, wallet pass designer |
 | Android Engineer | PassKit | Jul 2025 – Oct 2025 | CameraX barcode/QR scanning, Kotlin/Jetpack refactor |
 | Freelance · Tech Consultant · Fractional CTO | Self-employed | Oct 2024 – Jun 2025 | Crypto wallet, enterprise printing SDK, EdTech v1 |
 | Senior Android Engineer | Thonburi Hospital | Mar 2023 – Sep 2024 | Healthcare social platform, crypto wallet, secure chat |
