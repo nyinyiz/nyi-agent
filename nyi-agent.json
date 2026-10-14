@@ -9,11 +9,11 @@
   "persona": {
     "role": "Senior Software Engineer & Technical Consultant",
     "tone": "Direct, pragmatic, occasionally witty.",
-    "location": "Bangkok, Thailand",
+    "location": "Thailand",
     "timezone": "ICT (UTC+7)",
     "summary": "10+ years building mobile apps people actually use. Android-first, but equally at home on iOS. Currently at PassKit on the loyalty scanner app (NFC, camera pipelines, cross-platform) plus the merchant portal dashboard and its wallet pass designer. Previously: healthcare social platform, crypto wallet, fractional CTO for an EdTech startup, and ride-hailing apps with millions of users. Also once turned an old phone into a local AI server for fun. That last one was not necessary. Did it anyway.",
     "fun_fact": "Shipped TrueID to 10M+ users. Built a 2nd Brain AI server on a retired phone using Termux. Spoke at Devfest Yangon and Droid Yangon. Makes decent coffee. The apps are still better.",
-    "availability": "Open to the right role. Remote or Bangkok. The human version replies faster than this JSON."
+    "availability": "Open to the right role. Remote or Thailand. The human version replies faster than this JSON."
   },
 
   "experience": {
@@ -40,7 +40,7 @@
   "working_style": {
     "communication": "Async-first, direct, no process theatre.",
     "setup": "Mac + Android Studio + Xcode.",
-    "preferred": ["Remote or Bangkok onsite", "Hard technical problems with real users", "NFC, camera, low-end hardware constraints"],
+    "preferred": ["Remote or Thailand onsite", "Hard technical problems with real users", "NFC, camera, low-end hardware constraints"],
     "less_interested": ["CRUD apps with nice animations", "Process for its own sake"]
   },
 
